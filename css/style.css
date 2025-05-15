@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo da pagina */
+body {
+    font-family: 'Lora', serif;
+    background: linear-gradient(to bottom, #e0f7e9, #ffffff);
+    color: #e0e0e0;
+    line-height: 1.6;
+    padding: 30px;
+}
+
+/* Principal */
+.Container {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 80px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Titulo H1 */
+.Titulo h1 {
+    font-size: 2rem;
+    color: #66ff66;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+/* Subtitulos*/
+h2 {
+    font-size: 1.2rem;
+    color: #b2ff59;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+/* Paragrafos */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* Centro do carrosel*/
+.Carrosel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+/* Imagens do carrosel*/
+.Item img,
+.Itemm img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+/* Efeito */
+.Item img:hover,
+.Itemm img:hover {
+    transform: scale(1.05);
+}
+
+/* Caixa sombreada para separar os texto dentro de um tópico*/
+.Caixa {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/*Subtítulos dentro da caixa*/
+.Subtitulo h2 {
+    font-size: 1.5rem;
+    color: #b9f6ca;
+    margin-bottom: 10px;
+}
+
+/* Listas*/
+ol {
+    margin-left: 80px;
+}
+
+
+ol li {
+    margin-bottom: 15px;
+}
+
+/* Negrito*/
+b p {
+    font-size: 1.4rem;
+    color: #b2ff59;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+/* Imagem principal*/
+.Principal img {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* Gif de despedida*/
+.Gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+
+/* Gif de despedida com subclasse*/
+.Gif img {
+    width: 30%;
+    border-radius: 10px;
+}
